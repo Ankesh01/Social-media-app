@@ -28,7 +28,7 @@ export default function LoginCard() {
 
 	const [inputs, setInputs] = useState({
 		username: "Temp01",
-		password: "you-are-the-best@mail.com",
+		password: "you-are-the-best@gmail.com",
 	});
 	const showToast = useShowToast();
 	const handleLogin = async () => {
